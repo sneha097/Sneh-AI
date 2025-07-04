@@ -1,0 +1,128 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+html {
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.font-anton {
+  font-family: 'Anton', sans-serif;
+}
+
+@import "tailwindcss";
+/* Custom fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-fadeIn.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-fadeIn.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.animate-fadeIn.delay-600 {
+  animation-delay: 0.6s;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(45deg, #4f46e5, #3b82f6);
+  }
+  50% {
+    background: linear-gradient(45deg, #ff6a00, #ffb400);
+  }
+  100% {
+    background: linear-gradient(45deg, #4f46e5, #3b82f6);
+  }
+}
+
+.bg-gradient-animation {
+  animation: backgroundAnimation 10s ease-in-out infinite;
+}
+/* Add this to your global CSS (e.g., index.css or styles.css) */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+[data-scroll-container] {
+  overflow: hidden;
+  height: 100%;
+}
+
+[data-scroll-section] {
+  width: 100%;
+}
+
+[data-scroll] {
+  will-change: transform;
+}
+/* Customizing the scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the vertical scrollbar */
+  height: 8px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4c51bf; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3bffa; /* Lighter thumb color on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #e2e8f0; /* Scrollbar track color */
+  border-radius: 10px;
+}
+
+/* Customizing scrollbar for Firefox */
+scrollbar {
+  width: 8px;
+}
+
+scrollbar-thumb {
+  background: #4c51bf;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+scrollbar-thumb:hover {
+  background: #a3bffa;
+}
+.clip-path-hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.clip-path-diamond {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.clip-path-combined {
+  clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 25%,
+    100% 75%,
+    75% 100%,
+    25% 100%,
+    0% 75%,
+    0% 25%
+  );
+}
