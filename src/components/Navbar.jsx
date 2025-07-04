@@ -15,7 +15,7 @@ const Navbar = () => {
   { name: 'Contact', href: '#contact', icon: <Mail size={18} /> },
   {
     name: 'SnehAI',
-    href: '/assets/images/Sneh-AI.png',
+    href: '/images/Sneh-AI.png',
     icon: (
       <Bot
         size={18}

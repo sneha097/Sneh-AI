@@ -66,8 +66,8 @@ const Projects = () => {
       title: "SnehAI – My Portfolio",
       description:
         "An interactive portfolio powered by AI, showcasing my journey, projects, and achievements through creative storytelling, SnehAI assistant, and elegant design.",
-      link: "https://sneha.vercel.app",
-      github: "https://github.com/sneha-profile/portfolio",
+      link: "https://sneh-ai.vercel.app/",
+      github: "https://github.com/sneha097/Sneh-AI",
       video: "https://youtu.be/sneha-portfolio-demo",
       tags: ["Next.js", "Tailwind", "GSAP", "Framer Motion"],
       icon: <Laptop size={28} />,
