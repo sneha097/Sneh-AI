@@ -44,27 +44,39 @@ export default function Contact() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!validateForm()) return;
-    setIsSubmitting(true);
-    setSubmitStatus(null);
-    try {
-      // simulate email sending
-      await new Promise(res => setTimeout(res, 1500));
+  e.preventDefault();
+  if (!validateForm()) return;
+  setIsSubmitting(true);
+  setSubmitStatus(null);
+
+  try {
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+
+    const result = await response.json();
+
+    if (response.ok && result.success) {
       setSubmitStatus({
         success: true,
-        message: "Message sent! I'll get back to you soon."
+        message: "Message sent! I'll get back to you soon.",
       });
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch {
-      setSubmitStatus({
-        success: false,
-        message: 'Failed to send. Please try again later.'
-      });
-    } finally {
-      setIsSubmitting(false);
+    } else {
+      throw new Error(result.message || 'Something went wrong.');
     }
-  };
+  } catch (error) {
+    setSubmitStatus({
+      success: false,
+      message: error.message || 'Failed to send. Please try again later.',
+    });
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   return (
     <section

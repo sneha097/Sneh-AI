@@ -98,22 +98,22 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <motion.a
-                href="/Sneha_Resume.pdf"
-                download="Sneha_Singh_Resume.pdf"
-                className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-purple-600/90 to-pink-500/90 hover:from-purple-700/90 hover:to-pink-600/90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-purple-500/20 overflow-hidden"
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.97 }}
-              >
-                <span className="relative z-10 flex items-center gap-2">
-                  <FaDownload className="text-lg opacity-80" />
-                  Download Resume
-                </span>
-                <span className="absolute inset-0 bg-gradient-to-r from-purple-700/80 to-pink-600/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </motion.a>
+             <motion.a
+  href="https://drive.google.com/uc?export=download&id=1HNxrM7XKn-t7n6JULljSE33RxqEnx1kd"
+  className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-purple-600/90 to-pink-500/90 hover:from-purple-700/90 hover:to-pink-600/90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-purple-500/20 overflow-hidden"
+  whileHover={{ scale: 1.03 }}
+  whileTap={{ scale: 0.97 }}
+>
+  <span className="relative z-10 flex items-center gap-2">
+    <FaDownload className="text-lg opacity-80" />
+    Download Resume
+  </span>
+  <span className="absolute inset-0 bg-gradient-to-r from-purple-700/80 to-pink-600/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+</motion.a>
+
 
               <motion.a
-                href="#contact"
+                href="mailto:snehasinghaug09@gmail.com"
                 className="group relative inline-flex items-center gap-3 border border-white/30 hover:border-transparent hover:bg-white/90 hover:text-gray-900 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg overflow-hidden backdrop-blur-sm"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}

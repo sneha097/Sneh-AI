@@ -27,7 +27,7 @@ const categories = [
       { name: 'Node.js', icon: '/icons/nodejs.webp' },
       { name: 'Express', icon: '/icons/express.webp' },
       { name: 'MongoDB', icon: '/icons/mongodb.webp' },
-      { name: 'MySQL', icon: '/icons/mysql.webp' },
+      { name: 'MySQL', icon: '/icons/mySQL.webp' },
       { name: 'Java', icon: '/icons/java.webp' },
       { name: 'REST APIs', icon: '/icons/rest api.webp' },
     ],
