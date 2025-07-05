@@ -68,7 +68,7 @@ const Projects = () => {
         "An interactive portfolio powered by AI, showcasing my journey, projects, and achievements through creative storytelling, SnehAI assistant, and elegant design.",
       link: "https://sneh-ai.vercel.app/",
       github: "https://github.com/sneha097/Sneh-AI",
-      video: "https://youtu.be/sneha-portfolio-demo",
+      // video: "https://youtu.be/sneha-portfolio-demo",
       tags: ["Next.js", "Tailwind", "GSAP", "Framer Motion"],
       icon: <Laptop size={28} />,
     accentColor: "from-[#A855F7] to-[#EC4899]", // rich violet to rose
@@ -80,7 +80,7 @@ bgGradient: "from-[#6B21A8]/30 to-[#BE185D]/30", // deeper purple-pink for backg
       title: "WASRUK – Smart Waste Management",
       description:
         "A tech-driven platform promoting waste segregation through gamification, WCoins, machine learning-powered dashboards, and impact tracking tools.",
-      link: "https://www.wasruk.com/",
+      link: "https://wasruk-nu.vercel.app/",
       github: "https://github.com/sneha097/Wasruk",
       video: "https://drive.google.com/file/d/13YCMSLZNIfAoUXeWe_zee8BTU4vdQylQ/view?usp=sharing",
       tags: ["React", "Node.js", "MongoDB", "AWS"],
