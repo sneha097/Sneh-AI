@@ -3,6 +3,7 @@
 import React from 'react';
 import Hero from '../sections/Hero';
 import About from '../sections/About';
+import Experience from '../sections/Experience';  
 import Education from '../sections/Education';
 import Skills from '../sections/Skills';
 import Projects from '../sections/Projects';  
@@ -14,6 +15,7 @@ export default function Home() {
     <main className="text-white">
       <Hero />
       <About />
+      <Experience />
             <Education />
 
             <Skills />

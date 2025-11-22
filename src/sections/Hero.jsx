@@ -76,22 +76,21 @@ const Hero = () => {
               </motion.span>
             </h1>
             
-            <motion.p
-              className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-300 max-w-xl leading-relaxed"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-            >
-              Developer who engineers with empathy and precision. Whether architecting cloud-native solutions or crafting intuitive interfaces, I bridge technical complexity with genuine human needs.
-            </motion.p>
-
-            {/* Buttons */}
-            <motion.div
-              className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-            >
+<motion.p
+  className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-300 max-w-xl leading-relaxed"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.6 }}
+>
+  Developer who blends solid engineering with a human touch to build clear, dependable, user‑friendly experiences
+</motion.p>
+{/* Buttons */}
+<motion.div
+  className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.8 }}
+>
               <motion.a
                 href="https://drive.google.com/uc?export=download&id=1HNxrM7XKn-t7n6JULljSE33RxqEnx1kd"
                 className="group relative inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-purple-600/90 to-pink-500/90 hover:from-purple-700/90 hover:to-pink-600/90 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-purple-500/20 overflow-hidden text-sm sm:text-base"
@@ -143,20 +142,7 @@ const Hero = () => {
               ))}
             </motion.div>
 
-            {/* Tech Stack Badge */}
-            <motion.div 
-              className="mt-4 sm:mt-6 flex flex-col sm:flex-row items-center gap-2 text-xs sm:text-sm text-gray-400"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.2 }}
-            >
-              <span>Proudly built with:</span>
-              <div className="flex gap-1">
-                <SiNextdotjs className="text-white/80" />
-                <SiTailwindcss className="text-cyan-400" />
-                <SiFramer className="text-purple-400" />
-              </div>
-            </motion.div>
+    
           </motion.div>
         </motion.div>
 
@@ -284,7 +270,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5 }}
       >
-        <span className="text-xs sm:text-sm mb-1 sm:mb-2 text-white/50">Explore more</span>
+        {/* <span className="text-xs sm:text-sm mb-1 sm:mb-2 text-white/50">Explore more</span> */}
         <motion.div
           animate={{ y: [0, 6, 0] }}
           transition={{ duration: 2, repeat: Infinity }}

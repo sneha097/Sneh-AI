@@ -48,10 +48,9 @@ const categories = [
     techs: [
       { name: 'Git', icon: '/icons/git.webp' },
       { name: 'GitHub', icon: '/icons/github.webp' },
-      { name: 'Figma', icon: '/icons/figma.webp' },
       { name: 'VS Code', icon: '/icons/vs code.webp' },
       { name: 'Postman', icon: '/icons/postman.webp' },
-      { name: 'Stripe', icon: '/icons/stripe.webp' },
+      
     ],
   },
 ];
