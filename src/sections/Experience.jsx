@@ -13,7 +13,7 @@ const experiences = [
     period: 'August 2025 – Present',
     type: 'Trainee',
     points: [
-      ' Undergoing comprehensive training in Java, SQL, MERN stack, and Selenium automation.',
+      ' Undergoing comprehensive training in Advanced Java, SQL, and Selenium automation.',
       'Learning industry-standard development practices.',
       'Building hands-on experience through structured modules, demonstrating fast learning, problem-solving, and technical adaptability.'
     ]
