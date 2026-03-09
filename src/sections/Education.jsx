@@ -10,7 +10,7 @@ const Education = () => {
       school: 'KIET Group of Institutions, AKTU',
       degree: 'B.Tech in Computer Science',
       date: '2021 - 2025',
-      description: 'CGPA: 8.5 | Actively participated in multiple inter-college and national-level hackathons.',
+      description: 'CGPA: 8.3 | Actively participated in multiple inter-college and national-level hackathons.',
     },
     {
       school: 'CBSE - HSS Public School',

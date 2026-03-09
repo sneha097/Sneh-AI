@@ -92,7 +92,7 @@ const Hero = () => {
   transition={{ delay: 0.8 }}
 >
               <motion.a
-                href="https://drive.google.com/uc?export=download&id=1HNxrM7XKn-t7n6JULljSE33RxqEnx1kd"
+                href="https://drive.google.com/file/d/1lqM3_vBmdnDFjUC3WJcw0AYhc4GueNNx/view?usp=sharing"
                 className="group relative inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-purple-600/90 to-pink-500/90 hover:from-purple-700/90 hover:to-pink-600/90 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-purple-500/20 overflow-hidden text-sm sm:text-base"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
