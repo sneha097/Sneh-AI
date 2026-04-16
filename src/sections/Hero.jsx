@@ -82,8 +82,7 @@ const Hero = () => {
   animate={{ opacity: 1 }}
   transition={{ delay: 0.6 }}
 >
-  Developer who blends solid engineering with a human touch to build clear, dependable, user‑friendly experiences
-</motion.p>
+Software Engineer passionate about designing scalable systems, improving performance, and solving real-world problems through clean, efficient code.</motion.p>
 {/* Buttons */}
 <motion.div
   className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start"
@@ -92,14 +91,14 @@ const Hero = () => {
   transition={{ delay: 0.8 }}
 >
               <motion.a
-                href="https://drive.google.com/file/d/1lqM3_vBmdnDFjUC3WJcw0AYhc4GueNNx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1fgJsWTJXQWNUg9ZSA00cuSCIl0VkcV_6/view?usp=sharing"
                 className="group relative inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-purple-600/90 to-pink-500/90 hover:from-purple-700/90 hover:to-pink-600/90 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-purple-500/20 overflow-hidden text-sm sm:text-base"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
               >
                 <span className="relative z-10 flex items-center gap-1 sm:gap-2">
                   <FaDownload className="text-sm sm:text-lg opacity-80" />
-                  Download Resume
+                  Resume
                 </span>
                 <span className="absolute inset-0 bg-gradient-to-r from-purple-700/80 to-pink-600/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </motion.a>

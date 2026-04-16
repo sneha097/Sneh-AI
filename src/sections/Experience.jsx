@@ -13,7 +13,7 @@ const experiences = [
     period: 'August 2025 – Present',
     type: 'Full-time',
     points: [
-      'Designing backend services and data workflows using Java and SQL to support large-scale enterprise applications and internal platforms.',
+      'Designing backend services and data workflows using Java, SQL and Python to support large-scale enterprise applications and internal platforms.',
       'Developing scalable full-stack features with React.js and Spring Boot, contributing to 35+ REST API endpoints that improve application performance and responsiveness.',
       'Enhancing testing and delivery pipelines by implementing automated UI and API testing, helping accelerate CI/CD releases and reduce regression issues across applications.'
     ]

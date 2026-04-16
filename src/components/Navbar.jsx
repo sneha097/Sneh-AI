@@ -11,7 +11,7 @@ const Navbar = () => {
   { name: 'Home', href: '#home', icon: <Home size={18} /> },
   { name: 'About', href: '#about', icon: <User size={18} /> },
   { name: 'Projects', href: '#projects-section', icon: <LayoutList size={18} /> },
-  { name: 'Resume', href: 'https://drive.google.com/file/d/1lqM3_vBmdnDFjUC3WJcw0AYhc4GueNNx/view?usp=sharing', icon: <FileText size={18} /> },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1fgJsWTJXQWNUg9ZSA00cuSCIl0VkcV_6/view?usp=sharing', icon: <FileText size={18} /> },
   { name: 'Contact', href: '#contact', icon: <Mail size={18} /> },
   {
     name: 'SnehAI',
